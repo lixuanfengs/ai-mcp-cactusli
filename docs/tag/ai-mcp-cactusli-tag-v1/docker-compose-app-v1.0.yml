@@ -1,0 +1,43 @@
+# docker-compose -f docker-compose-app-v1.0.yml up -d
+services:
+  # ai-mcp-cactusli-app
+  ai-mcp-cactusli-app:
+    image: cactuslixf/ai-mcp-cactusli-app:1.0
+    container_name: ai-mcp-cactusli-app
+    restart: always
+    ports:
+      - "8090:8090"
+    volumes:
+      - ./log:/data/log
+      - ./mcp/config:/mcp/config
+      - ./mcp/jar:/mcp/jar
+    environment:
+      - TZ=PRC
+      - SERVER_PORT=8090
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=postgres
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://vector_db:5432/ai-rag-cactusli
+      - SPRING_DATASOURCE_DRIVER_CLASS_NAME=org.postgresql.Driver
+      - SPRING_AI_OLLAMA_BASE_URL=http://118.189.227.190:11434
+      - SPRING_AI_OLLAMA_EMBEDDING_OPTIONS_NUM_BATCH=512
+      - SPRING_AI_OLLAMA_MODEL=nomic-embed-text
+      - SPRING_AI_OPENAI_BASE_URL=https://api.openai.com/
+      - SPRING_AI_OPENAI_API_KEY=your_openai_api_key_here
+      - CRON_EXPRESSION=0 * * * * ?
+      - SPRING_AI_OPENAI_EMBEDDING_OPTIONS_MODEL=text-embedding-3-small
+      - SPRING_AI_RAG_EMBEDDING=text-embedding-3-small
+      - SPRING_AI_MCP_CLIENT_STDIO_SERVERS_CONFIGURATION=file:/mcp/config/mcp-servers-config.json
+      - REDIS_SDK_CONFIG_HOST=redis
+      - REDIS_SDK_CONFIG_PORT=6379
+      - REDIS_SDK_CONFIG_PASSWORD=0691bcb6
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge

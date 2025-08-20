@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "mcp-server-csdn": {
+      "command": "D:\\Public_software\\Java_jdk\\17\\bin\\java.exe",
+      "args": [
+        "-Dspring.ai.mcp.server.stdio=true",
+        "-Dlogging.level.root=INFO",
+        "-Dlogging.level.cn.cactusli.csdn=INFO",
+        "-Dlogging.file.name=data/log/mcp-server-csdn-detailed.log",
+        "-Dlogging.pattern.file=%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n",
+        "-Dlogging.pattern.console=",
+        "-Dfile.encoding=UTF-8",
+        "-jar",
+        "E:\\maven_repository\\cn\\cactusli\\mcp-server-csdn\\1.0.0\\mcp-server-csdn-1.0.0.jar",
+        "--csdn.api.categories=Java场景面试宝典",
+        "--csdn.api.cookie=fid=20_95694695194-1730769983778-635923; UN=qq_34968019; c_dl_um=-; _ga=GA1.1.2071491512.1733277741; FCNEC=%5B%5B%22AKsRol8AdP6bfWpBpz5I9ld762Zf6MuZei2K81lgeALVMQ88BG34Ycx8Ju789Ovtzk1kRKK34ii7CZPSJBnkzD5wUsNqxe7_5XBDgVxEJZnaKEanezrVWLxr4VLTijwZsZZKxJ2HKC6WXzvBnUwEDM4EUN6Je6DaKQ%3D%3D%22%5D%5D; _ga_7W1N0GEY1P=GS1.1.1736845961.2.1.1736846449.30.0.0; p_uid=U010000; csdn_newcert_qq_34968019=1; uuid_tt_dd=11_35382635629-1747631943915-480579; UserName=qq_34968019; UserInfo=2fbddb9c02a5489eb064d5d00bec42fc; UserToken=2fbddb9c02a5489eb064d5d00bec42fc; UserNick=%E6%9D%91%E9%9C%B8s1; AU=8BF; BT=1748585497988; c_dl_prid=1741675507865_920713; c_dl_rid=1749714376829_578099; c_dl_fref=https://bbs.csdn.net/topics/617032024; c_dl_fpage=/download/realwangpu/88102880; c_ab_test=1; _clck=74lgyo%7C2%7Cfx1%7C0%7C1772; __gads=ID=ee91fc3e9df730d3:T=1730948688:RT=1750740893:S=ALNI_MYGebfqnV5_b_FOlkKISjRbDV1e6g; __gpi=UID=00000a69633c82cf:T=1730948688:RT=1750740893:S=ALNI_MYh0_hu2ghTTaqqRhZk-YbpuuQU6A; __eoi=ID=984e6ab8fb3cf3da:T=1750740893:RT=1750740893:S=AA-AfjasPQd5zxiOpfdJZwT7Vveo; c_segment=3; dc_sid=62ab008dd5b775735e67b500686dbf9d; c_first_ref=default; dc_session_id=10_1750990609460.857301; c-sidebar-collapse=0; c_first_page=https%3A//mpbeta.csdn.net/; c_dsid=11_1750990775785.821100; creative_btn_mp=3; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1750740892,1750990776; HMACCOUNT=83D5852CBDF508C4; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1750990793; creativeSetApiNew=%7B%22toolbarImg%22%3A%22https%3A//img-home.csdnimg.cn/images/20230921102607.png%22%2C%22publishSuccessImg%22%3A%22https%3A//img-home.csdnimg.cn/images/20240229024608.png%22%2C%22articleNum%22%3A1%2C%22type%22%3A2%2C%22oldUser%22%3Atrue%2C%22useSeven%22%3Afalse%2C%22oldFullVersion%22%3Atrue%2C%22userName%22%3A%22qq_34968019%22%7D; c_pref=https%3A//mpbeta.csdn.net/mp_blog/manage/article%3Fspm%3D1011.2480.3001.8124; c_ref=https%3A//mpbeta.csdn.net/; c_page_id=default; log_Id_pv=9; log_Id_view=197; dc_tos=syhudo; log_Id_click=9"
+      ]
+    }
+  }
+}

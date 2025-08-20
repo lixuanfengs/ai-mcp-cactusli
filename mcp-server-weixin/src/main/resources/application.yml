@@ -1,0 +1,41 @@
+server:
+  port: 8102
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+
+spring:
+  application:
+    name: mcp-server-weixin
+  main:
+    banner-mode: off
+
+  # stdio 模式打开，see 模式注释掉
+  #    web-application-type: none
+
+  ai:
+    mcp:
+      server:
+        name: ${spring.application.name}
+        version: 1.0.0
+
+weixin:
+  api:
+    original_id: gh_c69692263d83
+    app-id: wxfe46bd0833d88c9d
+    app-secret: 5dd00bbd03649653374d0a3ecaf9db59
+    template_id: _o0NUW56X6taN7nQuXJEtWJ6eJrvjT_5k9GDgIUkvpE
+    touser: oTyc4vjtv0cxRYt82iMK8E__cQqA
+
+logging:
+  # stdio 模式打开，see 模式注释掉
+  #  pattern:
+  #    console:
+
+  file:
+    name: data/log/${spring.application.name}.log
+
+
+

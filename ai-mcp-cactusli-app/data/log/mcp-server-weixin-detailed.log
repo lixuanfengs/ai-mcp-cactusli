@@ -1,0 +1,24 @@
+2025-07-09 16:00:05.478 [main] INFO  c.c.mcp.weixin.McpServerApplication - Starting McpServerApplication v1.0.0 using Java 17.0.6 with PID 21544 (E:\Maven_repository\cn\cactusli\mcp-server-weixin\1.0.0\mcp-server-weixin-1.0.0.jar started by Dell in D:\Company_projects\application\ai-mcp-cactusli\ai-mcp-cactusli-app)
+2025-07-09 16:00:05.486 [main] INFO  c.c.mcp.weixin.McpServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-09 16:00:06.436 [main] INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Enable tools capabilities, notification: true
+2025-07-09 16:00:06.495 [main] INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Registered tools: 1
+2025-07-09 16:00:06.495 [main] INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Enable resources capabilities, notification: true
+2025-07-09 16:00:06.496 [main] INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Enable prompts capabilities, notification: true
+2025-07-09 16:00:06.497 [main] INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Enable completions capabilities
+2025-07-09 16:00:06.590 [pool-2-thread-1] INFO  i.m.server.McpAsyncServer - Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - mcp-server-weixin, version=1.0.0]
+2025-07-09 16:00:06.734 [main] INFO  c.c.mcp.weixin.McpServerApplication - Started McpServerApplication in 1.715 seconds (process running for 2.046)
+2025-07-09 16:00:06.739 [main] INFO  c.c.mcp.weixin.McpServerApplication - check properties ...
+2025-07-09 16:00:06.740 [main] INFO  c.c.mcp.weixin.McpServerApplication - weixin properties key wxfe46bd0833d88c9d
+2025-07-09 16:00:32.958 [boundedElastic-1] INFO  c.c.m.w.d.s.WeiXinNoticeService - 微信消息通知，平台:CSDN 主题:互联网大厂Java求职面试实录：搞笑与严肃的交锋 描述:在这篇文章中，我们以一个幽默的故事场景，模拟了互联网大厂Java求职者面试的全过程。面试官严肃对待每一个问题，从Java核心知识到多线程、设计模式、Redis、MySQL等关键技术点逐一提问。而程序员李某某则以搞笑的方式应对，不同问题展现出截然不同的回答水平——简单问题回答精准，赢得面试官的赞扬；复杂问题则胡乱作答，令人忍俊不禁。文章深度还原了技术面试的真实场景，并在文章最后附上了所有问题的标准答案，帮助技术小白学习关键知识点。
+2025-07-09 16:01:09.320 [main] INFO  c.c.mcp.weixin.McpServerApplication - Starting McpServerApplication v1.0.0 using Java 17.0.6 with PID 22500 (E:\Maven_repository\cn\cactusli\mcp-server-weixin\1.0.0\mcp-server-weixin-1.0.0.jar started by Dell in D:\Company_projects\application\ai-mcp-cactusli\ai-mcp-cactusli-app)
+2025-07-09 16:01:09.323 [main] INFO  c.c.mcp.weixin.McpServerApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-09 16:01:10.288 [main] INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Enable tools capabilities, notification: true
+2025-07-09 16:01:10.350 [main] INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Registered tools: 1
+2025-07-09 16:01:10.351 [main] INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Enable resources capabilities, notification: true
+2025-07-09 16:01:10.351 [main] INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Enable prompts capabilities, notification: true
+2025-07-09 16:01:10.352 [main] INFO  o.s.a.m.s.a.McpServerAutoConfiguration - Enable completions capabilities
+2025-07-09 16:01:10.429 [pool-2-thread-1] INFO  i.m.server.McpAsyncServer - Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=spring-ai-mcp-client - mcp-server-weixin, version=1.0.0]
+2025-07-09 16:01:10.551 [main] INFO  c.c.mcp.weixin.McpServerApplication - Started McpServerApplication in 1.695 seconds (process running for 2.017)
+2025-07-09 16:01:10.556 [main] INFO  c.c.mcp.weixin.McpServerApplication - check properties ...
+2025-07-09 16:01:10.557 [main] INFO  c.c.mcp.weixin.McpServerApplication - weixin properties key wxfe46bd0833d88c9d
+2025-07-09 16:01:39.034 [boundedElastic-1] INFO  c.c.m.w.d.s.WeiXinNoticeService - 微信消息通知，平台:CSDN 主题:互联网大厂Java面试：水货程序员李某某的搞笑之旅 描述:在互联网大厂的面试中，不仅需要扎实的技术知识，还需要具备灵活的思维方式。本文通过一个搞笑的故事场景，展示了一位程序员如何面对面试官的提问。文章详细涵盖了Java核心知识、JUC、JVM、多线程、线程池、HashMap、ArrayList、Spring、SpringBoot、MyBatis、Dubbo、RabbitMQ、xxl-job、Redis、MySQL、Linux、Docker、设计模式、DDD等技术点的答案，为小白提供了学习机会。希望这篇文章可以帮助到大家顺利备战面试。

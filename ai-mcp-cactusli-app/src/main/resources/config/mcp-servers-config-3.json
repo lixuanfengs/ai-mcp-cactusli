@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "mcp-server-csdn": {
+      "command": "java",
+      "args": [
+        "-Dspring.ai.mcp.server.stdio=true",
+        "-Dlogging.level.root=INFO",
+        "-Dlogging.level.cn.cactusli.csdn=INFO",
+        "-Dlogging.file.name=data/log/mcp-server-csdn-detailed.log",
+        "-Dlogging.pattern.file=%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n",
+        "-Dlogging.pattern.console=",
+        "-Dfile.encoding=UTF-8",
+        "-jar",
+        "E:\\maven_repository\\cn\\cactusli\\mcp-server-csdn\\1.0.0\\mcp-server-csdn-1.0.0.jar",
+        "--csdn.api.categories=Java场景面试宝典",
+        "--csdn.api.cookie=xxx"
+      ]
+    },
+    "mcp-server-weixin": {
+      "command": "java",
+      "args": [
+        "-Dspring.ai.mcp.server.stdio=true",
+        "-Dlogging.level.root=INFO",
+        "-Dlogging.level.cn.cactusli.csdn=INFO",
+        "-Dlogging.file.name=data/log/mcp-server-weixin-detailed.log",
+        "-Dlogging.pattern.file=%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n",
+        "-Dlogging.pattern.console=",
+        "-Dfile.encoding=UTF-8",
+        "-jar",
+        "E:\\maven_repository\\cn\\cactusli\\mcp-server-weixin\\1.0.0\\mcp-server-weixin-1.0.0.jar"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+25-07-09.16:00:03.464 [main            ] INFO  MCPTest2               - Starting MCPTest2 using Java 17.0.6 with PID 15644 (started by Dell in D:\Company_projects\application\ai-mcp-cactusli\ai-mcp-cactusli-app)
+25-07-09.16:00:03.465 [main            ] INFO  MCPTest2               - The following 1 profile is active: "dev"
+25-07-09.16:00:06.646 [pool-2-thread-1 ] INFO  McpAsyncClient         - Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[completions=CompletionCapabilities[], experimental=null, logging=LoggingCapabilities[], prompts=PromptCapabilities[listChanged=true], resources=ResourceCapabilities[subscribe=false, listChanged=true], tools=ToolCapabilities[listChanged=true]], Info: Implementation[name=mcp-server-weixin, version=1.0.0] and Instructions null
+25-07-09.16:00:08.431 [pool-6-thread-1 ] INFO  McpAsyncClient         - Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[completions=CompletionCapabilities[], experimental=null, logging=LoggingCapabilities[], prompts=PromptCapabilities[listChanged=true], resources=ResourceCapabilities[subscribe=false, listChanged=true], tools=ToolCapabilities[listChanged=true]], Info: Implementation[name=mcp-server-csdn, version=1.0.0] and Instructions null
+25-07-09.16:00:08.920 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-07-09.16:00:08.923 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-07-09.16:00:08.923 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-07-09.16:00:09.106 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_openai. Is empty: false
+25-07-09.16:00:09.106 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_openai in schema: public
+25-07-09.16:00:09.106 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-07-09.16:00:09.465 [main            ] INFO  McpServerAutoConfiguration - Enable tools capabilities, notification: true
+25-07-09.16:00:09.477 [main            ] INFO  McpServerAutoConfiguration - Registered tools: 2
+25-07-09.16:00:09.477 [main            ] INFO  McpServerAutoConfiguration - Enable resources capabilities, notification: true
+25-07-09.16:00:09.478 [main            ] INFO  McpServerAutoConfiguration - Enable prompts capabilities, notification: true
+25-07-09.16:00:09.478 [main            ] INFO  McpServerAutoConfiguration - Enable completions capabilities
+25-07-09.16:00:09.621 [main            ] INFO  MCPTest2               - Started MCPTest2 in 6.498 seconds (process running for 7.611)
+25-07-09.16:01:07.323 [main            ] INFO  MCPTest2               - Starting MCPTest2 using Java 17.0.6 with PID 21896 (started by Dell in D:\Company_projects\application\ai-mcp-cactusli\ai-mcp-cactusli-app)
+25-07-09.16:01:07.324 [main            ] INFO  MCPTest2               - The following 1 profile is active: "dev"
+25-07-09.16:01:10.478 [pool-2-thread-1 ] INFO  McpAsyncClient         - Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[completions=CompletionCapabilities[], experimental=null, logging=LoggingCapabilities[], prompts=PromptCapabilities[listChanged=true], resources=ResourceCapabilities[subscribe=false, listChanged=true], tools=ToolCapabilities[listChanged=true]], Info: Implementation[name=mcp-server-weixin, version=1.0.0] and Instructions null
+25-07-09.16:01:12.290 [pool-6-thread-1 ] INFO  McpAsyncClient         - Server response with Protocol: 2024-11-05, Capabilities: ServerCapabilities[completions=CompletionCapabilities[], experimental=null, logging=LoggingCapabilities[], prompts=PromptCapabilities[listChanged=true], resources=ResourceCapabilities[subscribe=false, listChanged=true], tools=ToolCapabilities[listChanged=true]], Info: Implementation[name=mcp-server-csdn, version=1.0.0] and Instructions null
+25-07-09.16:01:12.752 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-07-09.16:01:12.757 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-07-09.16:01:12.758 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-07-09.16:01:12.996 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_openai. Is empty: false
+25-07-09.16:01:12.997 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_openai in schema: public
+25-07-09.16:01:12.998 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-07-09.16:01:13.262 [main            ] INFO  McpServerAutoConfiguration - Enable tools capabilities, notification: true
+25-07-09.16:01:13.273 [main            ] INFO  McpServerAutoConfiguration - Registered tools: 2
+25-07-09.16:01:13.273 [main            ] INFO  McpServerAutoConfiguration - Enable resources capabilities, notification: true
+25-07-09.16:01:13.274 [main            ] INFO  McpServerAutoConfiguration - Enable prompts capabilities, notification: true
+25-07-09.16:01:13.274 [main            ] INFO  McpServerAutoConfiguration - Enable completions capabilities
+25-07-09.16:01:13.443 [main            ] INFO  MCPTest2               - Started MCPTest2 in 6.473 seconds (process running for 7.176)

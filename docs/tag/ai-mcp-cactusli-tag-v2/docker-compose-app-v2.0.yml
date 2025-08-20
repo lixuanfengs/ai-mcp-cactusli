@@ -1,0 +1,93 @@
+# docker-compose -f docker-compose-app-v1.0.yml up -d
+services:
+  # ai-mcp-cactusli-app
+  ai-mcp-cactusli-app:
+    image: cactuslixf/ai-mcp-cactusli-app:1.0
+    container_name: ai-mcp-cactusli-app
+    restart: always
+    ports:
+      - "8090:8090"
+    volumes:
+      - ./log:/data/log
+      - ./mcp/config:/mcp/config
+      - ./mcp/jar:/mcp/jar
+    environment:
+      - TZ=PRC
+      - SERVER_PORT=8090
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=postgres
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://vector_db:5432/ai-rag-cactusli
+      - SPRING_DATASOURCE_DRIVER_CLASS_NAME=org.postgresql.Driver
+      - SPRING_AI_OLLAMA_BASE_URL=http://118.189.227.190:11434
+      - SPRING_AI_OLLAMA_EMBEDDING_OPTIONS_NUM_BATCH=512
+      - SPRING_AI_OLLAMA_MODEL=nomic-embed-text
+      - SPRING_AI_OPENAI_BASE_URL=https://api.openai.com/
+      - SPRING_AI_OPENAI_API_KEY=xxx
+      - CRON_EXPRESSION=0 * * * * ?
+      - SPRING_AI_OPENAI_EMBEDDING_OPTIONS_MODEL=text-embedding-3-small
+      - SPRING_AI_RAG_EMBEDDING=text-embedding-3-small
+      - SPRING_AI_MCP_CLIENT_SSE_CONNECTIONS_MCP_SERVER_CSDN_URL=http://mcp-server-csdn-app:8101
+      - SPRING_AI_MCP_CLIENT_SSE_CONNECTIONS_MCP_SERVER_WEIXIN_URL=http://mcp-server-weixin-app:8102
+      - REDIS_SDK_CONFIG_HOST=redis
+      - REDIS_SDK_CONFIG_PORT=6379
+      - REDIS_SDK_CONFIG_PASSWORD=xxx
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    depends_on:
+      - mcp-server-csdn-app
+      - mcp-server-weixin-app
+    networks:
+      - my-network
+
+  mcp-server-csdn-app:
+    image:  cactuslixf/mcp-server-csdn-app:1.0
+    container_name: mcp-server-csdn-app
+    restart: always
+    ports:
+      - "8101:8101"
+    volumes:
+      - ./log:/data/log
+    environment:
+      - TZ=PRC
+      - SERVER_PORT=8101
+      - CSDN_API_CATEGORIES=Spring boot 实战
+      - CSDN_API_COOKIE="xxx"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      - my-network
+
+  mcp-server-weixin-app:
+    image:  cactuslixf/mcp-server-weixin-app:1.0
+    container_name: mcp-server-weixin-app
+    restart: always
+    ports:
+      - "8102:8102"
+    volumes:
+      - ./log:/data/log
+    environment:
+      - TZ=PRC
+      - SERVER_PORT=8102
+      - WEIXIN_API_ORIGINAL_ID=gh_c69692263d83
+      - WEIXIN_API_APP_ID=wxfe46bd0833d88c9d
+      - WEIXIN_API_APP_SECRET=xxx
+      - WEIXIN_API_TEMPLATE_ID=_o0NUW56X6taN7nQuXJEtWJ6eJrvjT_5k9GDgIUkvpE
+      - WEIXIN_API_TOUSER=oTyc4vjtv0cxRYt82iMK8E__cQqA
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    networks:
+      - my-network
+
+
+networks:
+  my-network:
+    driver: bridge

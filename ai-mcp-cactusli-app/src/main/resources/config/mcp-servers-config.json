@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "filesystem-mcp-server": {
+      "command": "D:\\Public_software\\Nvm_nodejs\\nvm\\nvm\\v18.20.4\\npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\Dell\\Desktop",
+        "C:\\Users\\Dell\\Desktop"
+      ]
+    },
+    "mcp-server-computer": {
+      "command": "D:\\Public_software\\Java_jdk\\17\\bin\\java.exe",
+      "args": [
+        "-Dspring.ai.mcp.server.stdio=true",
+        "-jar",
+        "E:\\maven_repository\\cn\\cactusli\\mcp-server-compute\\1.0.0\\mcp-server-compute-1.0.0.jar"
+      ]
+    }
+  }
+}
+

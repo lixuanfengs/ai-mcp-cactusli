@@ -1,0 +1,34 @@
+csdn:
+  api:
+    categories: Spring boot 实战
+    cookie: ${CSDN_API_COOKIE:fid=20_95694695194-1730769983778-635923; UN=qq_34968019; c_dl_um=-; _ga=GA1.1.2071491512.1733277741; FCNEC=%5B%5B%22AKsRol8AdP6bfWpBpz5I9ld762Zf6MuZei2K81lgeALVMQ88BG34Ycx8Ju789Ovtzk1kRKK34ii7CZPSJBnkzD5wUsNqxe7_5XBDgVxEJZnaKEanezrVWLxr4VLTijwZsZZKxJ2HKC6WXzvBnUwEDM4EUN6Je6DaKQ%3D%3D%22%5D%5D; _ga_7W1N0GEY1P=GS1.1.1736845961.2.1.1736846449.30.0.0; p_uid=U010000; csdn_newcert_qq_34968019=1; uuid_tt_dd=11_35382635629-1747631943915-480579; UserName=qq_34968019; UserInfo=2fbddb9c02a5489eb064d5d00bec42fc; UserToken=2fbddb9c02a5489eb064d5d00bec42fc; UserNick=%E6%9D%91%E9%9C%B8s1; AU=8BF; BT=1748585497988; c_dl_prid=1741675507865_920713; c_dl_rid=1749714376829_578099; c_dl_fref=https://bbs.csdn.net/topics/617032024; c_dl_fpage=/download/realwangpu/88102880; c_ab_test=1; _clck=74lgyo%7C2%7Cfx1%7C0%7C1772; __gads=ID=ee91fc3e9df730d3:T=1730948688:RT=1750740893:S=ALNI_MYGebfqnV5_b_FOlkKISjRbDV1e6g; __gpi=UID=00000a69633c82cf:T=1730948688:RT=1750740893:S=ALNI_MYh0_hu2ghTTaqqRhZk-YbpuuQU6A; __eoi=ID=984e6ab8fb3cf3da:T=1750740893:RT=1750740893:S=AA-AfjasPQd5zxiOpfdJZwT7Vveo; ssxmod_itna2=QqRxy7GQG=diuDeq0d5=8Dcex00d=1dT+D6aSiBD052bK03oee0OdDBjImD5cwOaeC0YRkPGF+BqIwQoHR2vqtiho=RXmZmIhi+meaFefwLTqX05Fqp=YqM+6eFR0Hkmo/gT1ipBYS6YmTE7Rdq++7G=+7PqKDIxSr5epo2v/Oo5bWtMej6AUdoqPmiUe1NmWw50Ki3pF3LaF7EqPcG8RLX90E9e31F2+AIhF2xcWfNgKDRmgkpxzMNsno4ui3IxhKIlzKouGQd4Gbf/z3NjRKXebyMt8bnXprWj+jfiaWUipWAuFjV2A=lx3Ua596+HPLx7QUPU9nQ5U6Uo086L1YIecIQ7Ycc4GGfZ7K6hwye2=1IG0qWfXHxmt2=GAwe/jSEA9Yp06iggbADoGGvxDUBpxue5RZKjAqmGw0g6zhbllWwUnxImPnqgE6XoIsImw26t+mPx9BERjbACcc27nIZohGcZem2fe+ovPY=aFQ4YQGZqQ/jYjh4+fPDodK7Gm=Z=qsnaDxXG7xA9+K/jIccFbuxvGPtT8xizFdrb0p+3UaHeFO4W4DQFaD08DiQtYD==; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1750740892,1750990776,1751004372,1751338480; ssxmod_itna=QqUxBDcD2DRDnDGx7wqBpTaampm2GDRon7YMeGNPm3DZDiqAPGhDCf392Df4mxx+x4ADtiTYif44rPbIhWADPTPtcWx0aDbqGkq7ArbPDxaq0rD74irDDxD3Db+dDSDWKD9D04kg9XMKDEDYP9DA3Di4D+7uQDmqG0DDUHn4G2D7t9YGDYzq4D0q4rh0xo9h0ecf2SfCUxbQ39D0UdxBdef6uY6PHY9d2HwbiWQqGy3KGuULt/BfbDCg6/0T0zCDp5fG5KQA4eW2eq4o+xAA+2OGDm4oAzYExo3Bq6ENqYeD; tfstk=gdAofBcKsLWWR9nAHI1SQRS6z3MvP_1CPHFdv6IE3iSjR6CJwKjH8hWdLe358nYp-0NPY8y4uw_3zgk5pwlHYnJR4Dg586xJ07IPUMlVgwbdzWSytKNH5eO-P635NU1CTcnt66YWP6aYT0IsDEuFR6bzux3dmU1CTmnt6fLWP3tso-GhTqfV-wePTg7roi7R077UawrqoisVTM-FTqYVcw5FYHl40WSMTIOqDS4wKhE3xIblEGVdmWVnJaXlbUSclZOmATjwziVE491RfMjX_mHDlhvy2ZtnsmfwCnAhQ6cufav2SsSR_A2cZEKWs_Riq7QAMiBwLt0raEflq9RAIyylZp-WtT9uRVTVan91fTkjcZAJ69j1nooykEjPIpx-cWSJIE-cBIEY61J6mBXN_gP83R-s8W_qJIyQdT7foGCqkLdccb96Jq00CY6Plantoq2QdT7fyc3moRZ5UZ_-X; dc_session_id=10_1752828508195.421315; c_first_ref=default; c_segment=3; dc_sid=d3cea0a97b73693391993322beefd4fb; creative_btn_mp=3; c-sidebar-collapse=0; creativeSetApiNew=%7B%22toolbarImg%22%3A%22https%3A//img-home.csdnimg.cn/images/20230921102607.png%22%2C%22publishSuccessImg%22%3A%22https%3A//img-home.csdnimg.cn/images/20240229024608.png%22%2C%22articleNum%22%3A48%2C%22type%22%3A2%2C%22oldUser%22%3Atrue%2C%22useSeven%22%3Afalse%2C%22oldFullVersion%22%3Atrue%2C%22userName%22%3A%22qq_34968019%22%7D; c_first_page=https%3A//www.csdn.net/%3Fspm%3D1001.2101.3001.4476; c_dsid=11_1752829480656.520494; log_Id_click=20; c_page_id=default; log_Id_view=540; c_pref=https%3A//editor.csdn.net/; c_ref=https%3A//mp.csdn.net/; dc_tos=szl7yo; log_Id_pv=24}
+spring:
+  application:
+    name: mcp-server-csdn
+  ai:
+    mcp:
+      server:
+        name: ${spring.application.name}
+        version: 1.0.0
+
+  main:
+    banner-mode: off
+# stdio 模式打开，see 模式注释掉
+#    web-application-type: none
+
+
+logging:
+  file:
+    name: data/log/${spring.application.name}.log
+
+# stdio 模式打开，see 模式注释掉
+#  pattern:
+#    console:
+
+server:
+  port: 8101
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
