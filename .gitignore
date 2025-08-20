@@ -43,3 +43,6 @@ build/
 /.idea/
 /push_all_branches.sh
 /data/
+/docs/tag/ai-mcp-cactusli-tag-v1/mcp/jar
+/docs/tag/ai-mcp-cactusli-tag-v2/mcp/jar
+
